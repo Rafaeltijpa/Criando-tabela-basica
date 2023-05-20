@@ -2,6 +2,33 @@
 <html lang="pt-br">
 
 <head>
+    <style>
+        table {
+            border: solid 1px gray;
+            box-shadow: 21px 29px 22px -12px rgba(0, 0, 0, 0.56);
+            -webkit-box-shadow: 21px 29px 22px -12px rgba(0, 0, 0, 0.56);
+            -moz-box-shadow: 21px 29px 22px -12px rgba(0, 0, 0, 0.56);
+        }
+
+        thead {
+            background-color: black;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) td {
+            background-color: rgba(135, 206, 141, 0.692);
+        }
+
+        tbody tr:hover td {
+            background-color: rgb(24, 235, 16);
+        }
+
+        caption {
+            background-color: silver;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +37,7 @@
 
 <body>
 
-    <table summary="Tabela relacionada a alunos de uma escola" border="" width="400">
+    <table cellspacing="0" summary="Tabela relacionada a alunos de uma escola" width="400">
 
         <caption>Tabela de alunos</caption>
         <thead>
